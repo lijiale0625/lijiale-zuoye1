@@ -130,3 +130,6 @@ if __name__ == "__main__":
     runner =HTMLTestRunner(stream=fp,title=u'测试报告',description=u'用例执行情况：')
     #执行测试用例
     runner.run(testunit)
+	
+	
+	哈哈哈哈啦啦啦
