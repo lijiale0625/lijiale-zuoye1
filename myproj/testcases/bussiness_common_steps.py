@@ -3,7 +3,7 @@
 # author: lijiale
 import time
 from selenium import webdriver
-
+from  config import *
 def open_url(driver,url):
     driver.get(url)
 def login_bugfree(driver,username,password):
@@ -26,6 +26,15 @@ def generate_random_num(start,stop):
     """
     import random
     return random.randint(start,stop)
+
+def click_element_by_id_with_sleep(driver,id,sleep=2):
+    #判断元素是否存在
+    try:
+        driver.find_element_by_id(id).click()
+    except:
+        pass
+    finally:
+        time.sleep(2)
 
 
 

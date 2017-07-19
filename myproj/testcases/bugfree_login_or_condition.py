@@ -11,7 +11,9 @@ from selenium.common.exceptions import NoAlertPresentException
 import unittest, time, re
 from HTMLTestRunner import HTMLTestRunner
 from bussiness_common_steps import *
+#from  config import *
 import random
+
 class BugfreeAdminLoginLogout(unittest.TestCase):
     u'''创建用例-查询用例-统计用例报表'''
 
@@ -38,7 +40,8 @@ class BugfreeAdminLoginLogout(unittest.TestCase):
         self.accept_next_alert = True
         '''
         #封装后的登录函数
-        login_bugfree(self.driver,"admin","123456")
+        #login_bugfree(self.driver,"admin","123456")
+        login_bugfree(self.driver, username1, password1)
 
 
     def test_bugfree_admin_login_logout(self):

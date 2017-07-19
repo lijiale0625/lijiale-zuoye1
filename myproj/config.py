@@ -3,3 +3,5 @@
 # author: lijiale
 
 chrome_driver = ''
+username1 = 'admin'
+password1 = '123456'
