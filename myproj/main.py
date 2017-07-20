@@ -2,17 +2,20 @@
 #!/usr/bin/env python   
 # author: lijiale
 
-import unittest
+import unittest,time
+from HTMLTestRunner import HTMLTestRunner
 
-from testcases.bugfree_login_or_condition import *
-from testcases.bugfree_import_file import BugfreeImportFile
+#from testcases.bugfree_login_or_condition import *
+# from testcases.bugfree_import_file import BugfreeImportFile
+from testcases.product_management.product_add import ProductAdd
 
 
 def main():
     suite = unittest.TestSuite()#生成测试集
     loader = unittest.TestLoader()#加载
     #suite.addTest(loader.loadTestsFromTestCase(BugfreeAdminLoginLogout))#把BugfreeAdminLoginLogout类中的测试用例存放到测试集里
-    suite.addTest(loader.loadTestsFromTestCase(BugfreeImportFile))
+    #suite.addTest(loader.loadTestsFromTestCase(BugfreeImportFile))
+    suite.addTest(loader.loadTestsFromTestCase(ProductAdd))
     #不生成报表
     #unittest.TextTestRunner(verbosity=2).run(suite)
     #生成报表

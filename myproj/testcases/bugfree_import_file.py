@@ -9,14 +9,15 @@ from bussiness_common_steps import *
 class BugfreeImportFile(BugfreeAdminLoginLogout):
 
     def test_bugfree_bug2(self):
-        # 取消弹出框
+        u'''测试导入的功能'''
         driver = self.driver
         # driver.find_element_by_xpath(".//*[@id='searchresult-grid']/div[1]/a[3]").click()
         driver.find_element_by_link_text(u"导入").click()
         # driver.implicitly_wait(3)
         """导入文件时，如果存在input标签，可以直接定位到元素，然后通过send_keys()方法上传"""
-        driver.find_element_by_id("casefilename").send_keys('./test.xml')
+        #driver.find_element_by_id("casefilename").send_keys('./test.xml')
         #导入文件时，如果没有input标签，可用autoIT工具上传
+        input_filename_click_ok()
 
         '''
         driver.find_element_by_id("uploadbutton").click()

@@ -36,5 +36,8 @@ def click_element_by_id_with_sleep(driver,id,sleep=2):
     finally:
         time.sleep(2)
 
-
-
+def input_filename_click_ok():
+    import os
+    cur_dir = os.getcwd()
+    #print cur_dir
+    os.system("%s/tools/upload_file_x64.exe"%cur_dir)

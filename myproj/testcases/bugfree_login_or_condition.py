@@ -67,13 +67,13 @@ class BugfreeAdminLoginLogout(unittest.TestCase):
         Select(driver.find_element_by_id("BugInfoView_severity")).select_by_visible_text("1")
         get_screenshots_immediately(driver)
         #输入错误类型
-        #Select(driver.find_element_by_id("Custom_BugType")).select_by_visible_text(u"代码错误")
+        Select(driver.find_element_by_id("Custom_BugType")).select_by_visible_text(u"代码错误")
         #输入如何发现
-        #Select(driver.find_element_by_id("Custom_HowFound")).select_by_visible_text(u"单元测试")
+        Select(driver.find_element_by_id("Custom_HowFound")).select_by_visible_text(u"单元测试")
         #点击清空创建人输入框
-        #driver.find_element_by_id("Custom_OpenedBuild").clear()
+        driver.find_element_by_id("Custom_OpenedBuild").clear()
         #输入创建人
-        #driver.find_element_by_id("Custom_OpenedBuild").send_keys("001")
+        driver.find_element_by_id("Custom_OpenedBuild").send_keys("001")
         driver.find_element_by_name("yt0").click()
         driver.close()
 
