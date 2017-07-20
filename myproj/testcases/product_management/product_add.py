@@ -31,7 +31,9 @@ class ProductAdd(unittest.TestCase):
         driver.switch_to.window(driver.window_handles[1])
         driver.find_element_by_link_text(u"添加产品").click()
         driver.find_element_by_id("Product_name").clear()
-        driver.find_element_by_id("Product_name").send_keys("Product_%s"%generate_random_num(1,99))
+        #方便tearDown()中删除新增的产品id,self.product_id在前面加self才能被tearDown()调用，不然就仅能在此方法内用
+        self.product_id = "Product_%s" % generate_random_num(1,99)
+        driver.find_element_by_id("Product_name").send_keys(self.product_id)
         driver.find_element_by_id("Product_display_order").clear()
         driver.find_element_by_id("Product_display_order").send_keys("2")
         driver.find_element_by_id("Product_bug_severity").clear()
@@ -43,5 +45,8 @@ class ProductAdd(unittest.TestCase):
         driver.find_element_by_name("yt0").click()
 
     def tearDown(self):
+        #要在这里删除刚刚新增的产品id，self.product_id
+        #连接数据库后在此执行一个delete语句
+        #pass
         driver = self.driver
         self.driver.quit()

@@ -8,3 +8,24 @@ def send_mail():
 
 def get_strftime():
     pass
+
+def read_excel(path):
+    import xlrd
+    ret_dict = []
+    data = xlrd.open_workbook(path)
+    sheet = data.sheets()[0]
+    # print sheet.nrows
+    # print sheet.ncols
+    nrows = sheet.nrows
+    for i in range(nrows):
+        if i == 0:
+            continue
+        ret_dict[i] = sheet.row_values(i)
+        print "第%s行是%s" % (i,sheet.row_values(i))
+
+    #return {1:[],2：[]，3}：[]
+
+if __name__ == '__main__':
+    read_excel("F:\selenium_element\git0719\lijiale-zuoye1\myproj\data\login_account.xlsx")
+
+

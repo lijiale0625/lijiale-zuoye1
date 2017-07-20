@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/env python   
 # author: lijiale
-import unittest
 from bugfree_login_or_condition import  BugfreeAdminLoginLogout
-import time
+
 from bussiness_common_steps import *
+
 
 class BugfreeImportFile(BugfreeAdminLoginLogout):
 
