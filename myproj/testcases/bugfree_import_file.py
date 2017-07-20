@@ -17,7 +17,7 @@ class BugfreeImportFile(BugfreeAdminLoginLogout):
         """导入文件时，如果存在input标签，可以直接定位到元素，然后通过send_keys()方法上传"""
         driver.find_element_by_id("casefilename").send_keys('./test.xml')
         #导入文件时，如果没有input标签，可用autoIT工具上传
-        
+
         '''
         driver.find_element_by_id("uploadbutton").click()
         time.sleep(3)
