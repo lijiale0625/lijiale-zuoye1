@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>登录-查询</h1>
-<p class='attribute'><strong>Start Time:</strong> 2017-07-20 00:15:26</p>
-<p class='attribute'><strong>Duration:</strong> 0:01:11.218000</p>
-<p class='attribute'><strong>Status:</strong> Pass 1 Error 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2017-07-20 15:57:57</p>
+<p class='attribute'><strong>Duration:</strong> 0:01:17.220000</p>
+<p class='attribute'><strong>Status:</strong> Pass 3</p>
 
 <p class='description'>创建bug-查询用例结果-统计用例情况</p>
 </div>
@@ -221,65 +221,36 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='errorClass'>
-    <td>testcases.bugfree_login_or_condition.BugfreeAdminLoginLogout: 创建用例-查询用例-统计用例报表</td>
-    <td>2</td>
-    <td>1</td>
+<tr class='passClass'>
+    <td>testcases.bugfree_import_file.BugfreeImportFile</td>
+    <td>3</td>
+    <td>3</td>
     <td>0</td>
-    <td>1</td>
-    <td><a href="javascript:showClassDetail('c1',2)">Detail</a></td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',3)">Detail</a></td>
 </tr>
 
-<tr id='ft1.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_bugfree_admin_login_logout: 创建用例</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        error</a>
-
-    <div id='div_ft1.1' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft1.1: Traceback (most recent call last):
-  File "F:\selenium_element\git0719\lijiale-zuoye1\myproj\testcases\bugfree_login_or_condition.py", line 64, in test_bugfree_admin_login_logout
-    driver.find_element_by_css_selector("li.ac_even").click()
-  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 437, in find_element_by_css_selector
-    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
-  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 752, in find_element
-    'value': value})['value']
-  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 236, in execute
-    self.error_handler.check_response(response)
-  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 192, in check_response
-    raise exception_class(message, screen, stacktrace)
-NoSuchElementException: Message: Unable to locate element: {"method":"css selector","selector":"li.ac_even"}
-Stacktrace:
-    at FirefoxDriver.prototype.findElementInternal_ (file:///c:/users/admini~1/appdata/local/temp/tmpgzsc7v/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-    at fxdriver.Timer.prototype.setTimeout/&lt;.notify (file:///c:/users/admini~1/appdata/local/temp/tmpgzsc7v/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_bugfree_admin_login_logout: 创建用例</div></td>
+    <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_bugfree_bug2</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
     <td class='none'><div class='testcase'>test_ide_bugfree_tongjibaobiao: 统计用例报表</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>2</td>
-    <td>1</td>
+    <td>3</td>
+    <td>3</td>
     <td>0</td>
-    <td>1</td>
+    <td>0</td>
     <td>&nbsp;</td>
 </tr>
 </table>

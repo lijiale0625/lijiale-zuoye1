@@ -59,21 +59,21 @@ class BugfreeAdminLoginLogout(unittest.TestCase):
         #封装获取1到99随机整数的函数generate_random_num(1,99)
         #输入bug名
         driver.find_element_by_id("BugInfoView_title").send_keys("autotest_%s"%generate_random_num(1,99))
-        get_screenshots_immediately(driver)
         driver.find_element_by_id("BugInfoView_assign_to_name").click()
         driver.find_element_by_css_selector("li.ac_even").click()
         driver.find_element_by_id("BugInfoView_mail_to").click()
         driver.find_element_by_xpath("//div[5]/ul/li").click()
         #输入严重等级
         Select(driver.find_element_by_id("BugInfoView_severity")).select_by_visible_text("1")
+        get_screenshots_immediately(driver)
         #输入错误类型
-        Select(driver.find_element_by_id("Custom_BugType")).select_by_visible_text(u"代码错误")
+        #Select(driver.find_element_by_id("Custom_BugType")).select_by_visible_text(u"代码错误")
         #输入如何发现
-        Select(driver.find_element_by_id("Custom_HowFound")).select_by_visible_text(u"单元测试")
+        #Select(driver.find_element_by_id("Custom_HowFound")).select_by_visible_text(u"单元测试")
         #点击清空创建人输入框
-        driver.find_element_by_id("Custom_OpenedBuild").clear()
+        #driver.find_element_by_id("Custom_OpenedBuild").clear()
         #输入创建人
-        driver.find_element_by_id("Custom_OpenedBuild").send_keys("001")
+        #driver.find_element_by_id("Custom_OpenedBuild").send_keys("001")
         driver.find_element_by_name("yt0").click()
         driver.close()
 
