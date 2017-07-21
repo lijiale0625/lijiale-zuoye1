@@ -10,9 +10,12 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
 import unittest, time, re
 from HTMLTestRunner import HTMLTestRunner
-from bussiness_common_steps import *
+from testcases.common_logic.bussiness_common_steps import *
 #from  config import *
 import random
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 class BugfreeAdminLoginLogout(unittest.TestCase):
     u'''创建用例-查询用例-统计用例报表'''
@@ -20,13 +23,13 @@ class BugfreeAdminLoginLogout(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
         self.driver.implicitly_wait(30)
-        self.base_url = "http://localhost/bugfree"
-        #url = self.base_url + "/bugfree/index.php/site/login"
+        self.base_url = "http://localhost"
         driver = self.driver
+        driver.get(self.base_url + "/bugfree/index.php/site/login")
         #打开bugfree登录页面
         #driver.get(self.base_url)
         #将登录页面函数封装成open_url(driver,url)
-        open_url(driver, self.base_url)
+        # open_url(driver, self.base_url)
         '''
         #原登录用例
         driver.find_element_by_id("LoginForm_username").clear()
@@ -40,8 +43,8 @@ class BugfreeAdminLoginLogout(unittest.TestCase):
         self.accept_next_alert = True
         '''
         #封装后的登录函数
-        #login_bugfree(self.driver,"admin","123456")
-        login_bugfree(self.driver, username1, password1)
+        login_bugfree(self.driver,"admin","123456")
+        #login_bugfree(self.driver, username1, password1)
 
 
     def test_bugfree_admin_login_logout(self):

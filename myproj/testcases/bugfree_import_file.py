@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/env python   
 # author: lijiale
-from bugfree_login_or_condition import  BugfreeAdminLoginLogout
-
-from bussiness_common_steps import *
-
+from testcases.login_logout_cases.bugfree_login_or_condition import BugfreeAdminLoginLogout
+from testcases.common_logic.bussiness_common_steps import *
 
 class BugfreeImportFile(BugfreeAdminLoginLogout):
 

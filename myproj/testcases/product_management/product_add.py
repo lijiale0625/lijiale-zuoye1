@@ -2,11 +2,12 @@
 #!/usr/bin/env python   
 # author: lijiale
 
-from testcases.bussiness_common_steps import *
-#from bussiness_common_steps import *
+from testcases.common_logic.bussiness_common_steps import *
+# from bussiness_common_steps import *
 from  config import *
 from selenium import webdriver
 import unittest, time, re
+from testcases.bugfree_import_file import BugfreeImportFile
 
 class ProductAdd(unittest.TestCase):
     """Bugfree_产品添加测试"""
