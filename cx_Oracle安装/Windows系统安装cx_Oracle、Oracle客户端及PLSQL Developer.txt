@@ -1,0 +1,29 @@
+一、安装cx_Oracle及对应的Oracle客户端
+
+安装cx_Oracle, 这个是一个Python的扩展包，用来访问Oracle数据库的。Windows的安装文件可以到http://cx-oracle.sourceforge.net/这里去下载。
+下载Oracle 64位客户端（Oracle Instant Client），这个是Python扩展包所需要的。可以到http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html去下载，下载后解压到本地磁盘（例如：D:\PLSQL\instantclient_11_2_64），把路径加入到环境变量的path中。同时在系统环境变量中添加NLS_LANG，值为SIMPLIFIED CHINESE_CHINA.ZHS16GBK，以便支持中文。
+注：客户端字符集要与服务器一致，才能正确显示数据库的非Ascii字符，但是语言设置可以不同，因此NLS_LANG也可以设为American_American.ZHS16GBK。字符集查询见附录。
+在D:\PLSQL\instantclient_11_2_64\NETWORK\ADMIN添加tnsnames.oRA文件。新建一个叫tnsnames.ora的文件，内容如下：
+TESTDB=
+(DESCRIPTION=
+ (ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1521))
+ (CONNECT_DATA=
+   (SERVER=DEDICATED)
+   (SERVICE_NAME=TESTDB)
+ )
+)
+ORACLR_CONNECTION_DATA=
+(DESCRIPTION=
+ (ADDRESS_LIST=
+   (ADDRESS=(PROTOCOL=IPC)(KEY=EXTPROC1521))
+ )
+ (CONNECT_DATA=
+   (SID=CLRExtProc)
+   (PRESENTATION=RO)
+ )
+)
+
+
+编写测试代码：
+importcx_Oracle
+db_conn=cx_Oracle.connect(“user/pass@tnsname.world”)

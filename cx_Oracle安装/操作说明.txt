@@ -1,0 +1,11 @@
+注意：各软件的位数一定要一致
+1、请先查看你的pthon 是安装多少位的 查看方式 启动IDLE会看到如下内容
+Python 2.7.11 (v2.7.11:6d1b6a68f775, Dec  5 2015, 20:32:19) [MSC v.1500 32 bit (Intel)] on win32   注意：MSC v.1500 32 bit (Intel)  这里才是版本位数
+2、点击安cx_Oracle-5.2.1-11g ，如果跳出提示：python version 2.7 required,which was not found in the registry
+3、执行registry.py 脚本后，重新安装后， 需将oraociei11.dll、oraocci11.dll复制到 C:\Python27\Lib\site-packages
+4、检验方法：import cx_Oracle  
+5、提示 ImportError:DLL load failed:找不到指定的模块
+6、将oci.ddl 放在C:\Python27\Lib\site-packages
+7 检验方法：import cx_Oracle  
+8 如果提示ImportError: DLL load failed: %1 不是有效的 Win32 应用程序。  请将64的oci.ddl动态库的文件替换到C:\Python27\Lib\site-packages
+9 检验方法：import cx_Oracle  
