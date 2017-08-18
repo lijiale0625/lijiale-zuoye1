@@ -1,0 +1,12 @@
+*** Settings ***
+Suite Setup       资源初始化    ${modle}    ${log_leval}    ${hosts_name}    ${db_connect}
+Suite Teardown    资源释放
+Resource          AutomaticTestResources.txt
+
+*** Variables ***
+${log_leval}      TRACE    # 设置日志级别，可以设置为： TRACE 、 DEBUG 、 INFO
+${modle}          interface    # 模式：功能（填写为：function \ ）或接口（填写为：interface）
+${hosts_name}     http://172.30.0.127:18001    # 服务器主机地址
+${db_connect}     {"t_fspf_omms_n":{"db_type":"cx_Oracle", "connect":"'t_fspf_omms_n', 't_fspf_omms_n',' (DESCRIPTION=(ADDRESS = (PROTOCOL=TCP)(HOST=172.30.0.155)(PORT=1521) )(CONNECT_DATA=(SERVER=dedicated)(SERVICE_NAME=szdev)))'"}, "t_fspf_cashbox_n":{"db_type":"cx_Oracle", "connect":"'t_fspf_cashbox_n', 't_fspf_cashbox_n',' (DESCRIPTION=(ADDRESS = (PROTOCOL=TCP)(HOST=172.30.0.155)(PORT=1521) )(CONNECT_DATA=(SERVER=dedicated)(SERVICE_NAME=szdev)))'"}, "t_fspf_trans_n":{"db_type":"cx_Oracle", "connect":"'t_fspf_trans_n', 't_fspf_trans_n',' (DESCRIPTION=(ADDRESS = (PROTOCOL=TCP)(HOST=172.30.0.155)(PORT=1521) )(CONNECT_DATA=(SERVER=dedicated)(SERVICE_NAME=szdev)))'"}}    # 数据库连接参数
+${redis_connect}    {"host":"172.30.0.181","port":"6380"}    # redis数据库连接参数 \ 如果不需连接则填写：{},需要按此格式填写 \ {"host":"172.30.0.181","port":"6380"}
+${since_the_quantity}    {"redis_host":"172.30.0.181"}    #自定义变量，如果不需要填写：{}, 如果需要自定义请参考示例：{"key":"vaule"}
