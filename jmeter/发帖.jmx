@@ -331,7 +331,7 @@
                 </elementProp>
                 <elementProp name="atc_title" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                  <stringProp name="Argument.value">自动化发帖_${username}_${__time(yyyyMMdd-HHmmss,YMDHMS)}</stringProp>
+                  <stringProp name="Argument.value">自动化发帖_${__RandomString(5,0123456789abcdef,value)}_${username}_${__time(yyyyMMdd-HHmmss,YMDHMS)}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                   <stringProp name="Argument.name">atc_title</stringProp>
@@ -345,7 +345,7 @@
                 </elementProp>
                 <elementProp name="atc_content" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                  <stringProp name="Argument.value">自动化发帖_${username}_${__time(yyyyMMdd-HHmmss,YMDHMS)}</stringProp>
+                  <stringProp name="Argument.value">自动化发帖_value_${username}_${__time(yyyyMMdd-HHmmss,YMDHMS)}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                   <stringProp name="Argument.name">atc_content</stringProp>
@@ -576,7 +576,17 @@
             <boolProp name="HTTPSampler.monitor">false</boolProp>
             <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           </HTTPSamplerProxy>
-          <hashTree/>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="-718379837">${value}</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">16</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
           <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="察看结果树" enabled="true">
             <boolProp name="ResultCollector.error_logging">false</boolProp>
             <objProp>
