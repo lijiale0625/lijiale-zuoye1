@@ -1,0 +1,10 @@
+启动hub：
+
+java -jar selenium-server-standalone-2.53.0.jar -role hub  （-port <新端口>可以在此改默认端口）
+
+Hub程序会自动启动，注册并监听4444端口，如果你想修改默认监听端口，可以使用提示符 -port <新端口>。你可以在浏览器里输入来查看 http://localhost:4444/grid/console 是否启动成功。
+
+启动Nodes
+
+java -jar selenium-server-standalone-2.53.0.jar -role node -hub http://localhost:4444/grid/register
+

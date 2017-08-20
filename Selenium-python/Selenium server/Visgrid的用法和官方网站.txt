@@ -1,0 +1,10 @@
+官方网站：http://codoid.com/visgrid/
+
+• Download and extract ‘VisGrid.zip’ wherever you want
+• Double click ‘VisGrid.jar’
+• Click Start Hub button
+• Now Hub is started and ‘Create Node’ & ‘Stop Hub’ buttons are displayed
+• Click ‘Create Node’ button
+• Select a browser and click ‘Add’ button
+• That’s it. You have created Hub and attached a node successfully
+• Hit http://localhost:4444/grid/console to cross check your actions

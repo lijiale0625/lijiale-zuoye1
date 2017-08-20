@@ -1,0 +1,1 @@
+java -jar "E:\\≈‡—µ\\Selenium-python\\Selenium server\\selenium-server-standalone-2.53.0.jar" -role node -port 6666 -hub http://192.168.6.23:4444/grid/register
