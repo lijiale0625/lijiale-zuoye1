@@ -1,0 +1,2 @@
+http://blog.sina.com.cn/s/blog_67f09d530101l2cp.html
+python读写串口经验分享  

@@ -6,7 +6,7 @@ ${base_url}       http://localhost/bugfree/index.php/site/login
 
 *** Keywords ***
 打开登录页面
-    open browser    ${base_url}    ie
+    open browser    ${base_url}
     Title Should Be    登录 - BugFree
 
 输入用户名

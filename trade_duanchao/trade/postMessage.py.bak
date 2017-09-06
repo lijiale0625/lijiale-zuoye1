@@ -1,0 +1,79 @@
+# -*- coding: utf-8 -*-
+import json
+import urllib2
+import threading
+import time
+import datetime
+import random
+import os,sys
+import cookielib
+import urllib
+
+CUR_PATH = os.path.abspath(sys.path[0])
+host = '172.30.0.126'
+port = '8888'
+deviceAuth_path = '/cashbox/v3/deviceAuth.htm'
+
+interface_url = 'http://' + host + ':' + port + deviceAuth_path
+
+def isset(v): """判断变量是否已定义"""
+    try : 
+        type (eval(v)) 
+    except : 
+        return  0 
+    else : 
+        return  1 
+     
+def postJson(ipath,message={}):
+    global cookiejar, urlOpener
+    cookiejar = cookielib.CookieJar()
+    print cookiejar 
+    if not isset(v):
+        urlOpener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookiejar))
+    print urlOpener
+    requrl = 'http://' + host + ':' + port + ipath
+    
+    
+    message_to_json = urllib.urlencode(message)
+    header = {
+        "Content-type": "application/json; charset=UTF-8",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache"}
+    urlOpener.addheaders = [(k, v) for k, v in header.iteritems()]     
+    try :    
+        #req = urllib2.Request(url=requrl, data=message_to_json, headers=header)
+        print message_to_json
+        res_data = urlOpener.open(requrl, data=message_to_json)
+        res_data = res_data.read()
+        print res_data.decode('utf-8')
+        return res_data
+    except Exception,e:
+        print e
+    
+def log(line):
+    log_handle.write(str(datetime.datetime.now()) + ' ' + line + '\n')    
+    
+class My_Thread(threading.Thread):
+    def __init__(self, threadname):
+        threading.Thread.__init__(self, name=threadname)
+    def run(self):
+        # print '%s is running'%self.getName()
+        begin = datetime.datetime.now()
+        #rescode = pass
+
+        end = datetime.datetime.now()
+        thread_spend_time = (end - begin).total_seconds()
+        st = str(thread_spend_time)
+        if thread_spend_time>5:
+            st = st+' '+'>5'
+        else :
+            st = st+' '+'<5'
+        rlock.acquire()
+        log('thread' +
+            self.name +
+            ' ' +
+            'spendtime-->' +
+            st
+            )
+        log(rescode)
+        rlock.release()
