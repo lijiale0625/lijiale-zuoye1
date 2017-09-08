@@ -1,0 +1,42 @@
+*** Settings ***
+Library           SudsLibrary
+Library           Collections
+Resource          webservice.robot
+
+*** Test Cases ***
+demo1
+    comment    Loads a WSDL from the given URL/path and creates a Suds SOAP client.
+    Create Soap Client    http://172.30.0.169:8099/mchtService?wsdl
+    Comment    Sets the port to use in future requests. port should be the name or the index of the port as it appears in the WSDL.
+    Set Port    MchtServiceWSPort
+    Sleep    1
+    Comment
+    ${result}=    Call Soap Method    bindSnNo    {"mchtNo":"015440395007352","snNo":"019950135999"}
+    Should Be Equal    ${result}    {"status":"0"}
+
+SudsLibrary_demo2
+    Create Soap Client    http://www.webservicex.net/Statistics.asmx?WSDL
+    ${dbl array}=    Create Wsdl Object    ArrayOfDouble
+    Append To List    ${dbl array.double}    2.0
+    Append To List    ${dbl array.double}    3.0
+    ${result}=    Call Soap Method    GetStatistics    ${dbl array}
+    Should Be Equal As Numbers    ${result.Average}    2.5
+
+bindSnNo_正确所属且未绑定
+    [Template]    进件接口验证
+    bindSnNo    {"mchtNo":"015440395007352","snNo":"019950135999"}    {"status":"0"}
+
+bindSnNo_已绑定
+    [Template]    进件接口验证
+    bindSnNo    {"mchtNo":"015440395007352","snNo":"019950135999"}    {"remark":"无效SN，终端已被绑定，请更换!","status":"1"}
+
+bindSnNo_错误绑定关系
+    [Template]    进件接口验证
+    bindSnNo    {"mchtNo":"015440395007352","snNo":"013288888882"}    {"remark":"终端不属于该机构！","status":"1"}
+
+*** Keywords ***
+进件接口验证
+    [Arguments]    ${Methods}    ${values}    ${exception}
+    log many    ${Methods}    ${values}    ${exception}
+    创建client类
+    wsdl请求    ${Methods}    ${values}    ${exception}

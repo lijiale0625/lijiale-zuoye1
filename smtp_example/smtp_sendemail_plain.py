@@ -8,6 +8,10 @@
 用户名：zelin_test@163.com
 密码：zelin123456
 第三方授权码：Zelin123456
+
+用户名：lijiale705@sina.com  
+密码：zelin0625
+第三方授权码：无
 """
 import smtplib
 from email.header import Header
@@ -21,11 +25,11 @@ def _format_addr(s):
 
 
 def send_email():
-    from_addr = u"zelin_test@163.com"
-    password = u"woody123"  # 163设置的第三方授权码
+    from_addr = u"lijiale705@sina.com"
+    password = u"zelin0625"  # 163设置的第三方授权码
 
-    to_addr = u"zelin_test@163.com"
-    smtp_server = u"smtp.163.com"
+    to_addr = u"lijiale@iboxpay.com"
+    smtp_server = u"smtp.sina.com"
 
     msg = MIMEText(u'hello, sent by Python automation', 'plain', 'utf-8')
     msg['From'] = _format_addr(u'Python爱好者 <%s>' % from_addr)

@@ -1,0 +1,22 @@
+*** Settings ***
+Library           XML
+Library           Collections
+
+*** Test Cases ***
+xml_subelement
+    ${xml}    Set Variable    <example> \ \ <first id="1">text</first> \ \ <second id="2"> \ \ \ \ <child/> \ \ </second> \ \ <third> \ \ \ \ <child>more text</child> \ \ \ \ <second id="child"/> \ \ \ \ <child><grandchild/></child> \ \ </third> </example>
+    ${first}    Get Element    ${xml}    first
+    Should Be Equal    ${first.text}    text
+    ${f_text}    Get Element Text    ${xml}    first
+    Should Be Equal    ${f_text}    text
+    ${f_attr}    Get Element Attribute    ${xml}    id    first
+    Should Be Equal    ${f_attr}    1
+    ${children}    Get Elements    ${xml}    third/child
+    log    ${children[0].text}
+    Length Should Be    ${children}    2
+    @{texts}    Get Elements Texts    ${xml}    third/child
+    Should Be Equal    @{texts}[0]    more text
+    Should Be Equal    @{texts}[1]    ${empty}
+
+xm_webservice
+    ${xml}    Set Variable

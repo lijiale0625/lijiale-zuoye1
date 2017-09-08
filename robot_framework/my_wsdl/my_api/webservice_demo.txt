@@ -1,0 +1,22 @@
+*** Settings ***
+Library           SudsLibrary
+Library           Collections
+
+*** Test Cases ***
+demo1
+    comment    Loads a WSDL from the given URL/path and creates a Suds SOAP client.
+    Create Soap Client    http://172.30.0.169:8099/mchtService?wsdl
+    Comment    Sets the port to use in future requests. port should be the name or the index of the port as it appears in the WSDL.
+    Set Port    MchtServiceWSPort
+    Sleep    1
+    Comment
+    ${result}=    Call Soap Method    bindSnNo    {"mchtNo":"015440395007352","snNo":"019950135999"}
+    Should Be Equal    ${result}    {"status":"0"}
+
+SudsLibrary_demo2
+    Create Soap Client    http://www.webservicex.net/Statistics.asmx?WSDL
+    ${dbl array}=    Create Wsdl Object    ArrayOfDouble
+    Append To List    ${dbl array.double}    2.0
+    Append To List    ${dbl array.double}    3.0
+    ${result}=    Call Soap Method    GetStatistics    ${dbl array}
+    Should Be Equal As Numbers    ${result.Average}    2.5
