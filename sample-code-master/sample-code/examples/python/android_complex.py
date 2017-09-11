@@ -16,7 +16,7 @@ class ComplexAndroidTests(unittest.TestCase):
     def setUp(self):
         desired_caps = {}
         desired_caps['platformName'] = 'Android'
-        desired_caps['platformVersion'] = '4.2'
+        desired_caps['platformVersion'] = '7.1.1'
         desired_caps['deviceName'] = 'Android Emulator'
         desired_caps['app'] = PATH(
             '../../../sample-code/apps/ApiDemos/bin/ApiDemos-debug.apk'
@@ -44,7 +44,7 @@ class ComplexAndroidTests(unittest.TestCase):
         # there are more, but at least 10 visible
         self.assertLess(10, len(els))
         # the list includes 2 before the main visible elements
-        self.assertEqual('Action Bar', els[2].text)
+        self.assertEqual('Action Bar', els[0].text)
 
         els = self.driver.find_elements_by_xpath('//android.widget.TextView')
         self.assertLess(10, len(els))
