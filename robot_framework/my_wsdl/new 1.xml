@@ -1,0 +1,11 @@
+<example>
+  <first id="1">text</first>
+  <second id="2">
+    <child/>
+  </second>
+  <third>
+    <child>more text</child>
+    <second id="child"/>
+    <child><grandchild/></child>
+  </third>
+</example>
