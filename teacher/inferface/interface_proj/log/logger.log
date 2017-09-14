@@ -1,0 +1,7 @@
+2017-08-21 14:00:40,476 - main.py:22 - INFO - main - <module> - 日志开始
+2017-08-21 14:01:00,792 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): 127.0.0.1
+2017-08-21 14:01:00,953 - weather.py:60 - INFO - weather - test_with_errorkey_by_cityname - 错误的请求KEY!
+2017-08-21 14:01:20,913 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): 127.0.0.1
+2017-08-21 14:01:21,072 - weather.py:47 - INFO - weather - test_with_nullkey_by_cityname - 错误的请求KEY!
+2017-08-21 14:01:39,944 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): 127.0.0.1
+2017-08-21 14:01:40,140 - weather.py:34 - INFO - weather - test_with_validkey_by_cityname - successed!

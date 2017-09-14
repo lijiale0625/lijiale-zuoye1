@@ -1,0 +1,20 @@
+2017-08-18 14:29:15,950 - main.py:22 - INFO - main - <module> - 日志开始
+2017-08-18 14:29:15,997 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-18 14:29:17,957 - weather.py:60 - INFO - weather - test_with_errorkey_by_cityname - 错误的请求KEY!
+2017-08-18 14:29:17,964 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-18 14:29:18,084 - weather.py:47 - INFO - weather - test_with_nullkey_by_cityname - 错误的请求KEY!
+2017-08-18 14:29:18,089 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-18 14:29:18,286 - weather.py:34 - INFO - weather - test_with_validkey_by_cityname - successed!
+2017-08-18 14:29:18,292 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-18 14:29:18,480 - weather.py:99 - INFO - weather - test_with_validkey_by_cityname_with_dtypy_json - successed!
+2017-08-18 14:29:18,486 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-18 14:29:18,674 - weather.py:112 - INFO - weather - test_with_validkey_by_cityname_with_dtypy_xml - successed!
+2017-08-18 14:29:18,680 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-18 14:29:18,887 - weather.py:125 - INFO - weather - test_with_validkey_by_cityname_with_format_1 - successed!
+2017-08-18 14:29:18,892 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-18 14:29:19,084 - weather.py:138 - INFO - weather - test_with_validkey_by_cityname_with_format_2 - successed!
+2017-08-18 14:29:19,091 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-18 14:29:19,289 - weather.py:86 - INFO - weather - test_with_validkey_by_errorcityname - 查询不到该城市的信息
+2017-08-18 14:29:19,295 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-18 14:29:19,474 - weather.py:73 - INFO - weather - test_with_validkey_by_nullcityname - Error Cityname!
+2017-08-18 14:29:19,476 - main.py:36 - INFO - main - <module> - 日志结束

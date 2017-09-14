@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/interface_proj.iml" filepath="$PROJECT_DIR$/.idea/interface_proj.iml" />
+      <module fileurl="file://E:/woody/lijiale-zuoye1/jmeter/.idea/jmeter.iml" filepath="E:/woody/lijiale-zuoye1/jmeter/.idea/jmeter.iml" />
+      <module fileurl="file://E:/woody/lijiale-zuoye1/web service/.idea/web service.iml" filepath="E:/woody/lijiale-zuoye1/web service/.idea/web service.iml" />
+    </modules>
+  </component>
+</project>

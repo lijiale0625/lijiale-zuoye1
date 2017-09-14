@@ -1,0 +1,104 @@
+2017-08-16 10:48:41,885 - main.py:22 - INFO - main - <module> - 日志开始
+2017-08-16 10:48:41,989 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 10:48:42,305 - weather.py:41 - INFO - weather - test_get_weather_by_cityname - 不是错误的请求KEY
+2017-08-16 10:48:42,308 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 10:48:42,417 - weather.py:30 - ERROR - weather - test_with_error_key - 错误的请求KEY
+2017-08-16 10:48:42,572 - main.py:36 - INFO - main - <module> - 日志结束
+2017-08-16 11:05:11,936 - main.py:22 - INFO - main - <module> - 日志开始
+2017-08-16 11:05:11,950 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:05:12,259 - weather.py:91 - INFO - weather - test_get_weather_by_cityname - 不是错误的请求KEY
+2017-08-16 11:05:12,260 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:05:12,930 - weather.py:30 - ERROR - weather - test_with_error_key - 错误的请求KEY
+2017-08-16 11:05:12,931 - main.py:36 - INFO - main - <module> - 日志结束
+2017-08-16 11:09:52,062 - main.py:22 - INFO - main - <module> - 日志开始
+2017-08-16 11:09:52,075 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:09:52,286 - weather.py:91 - INFO - weather - test_get_weather_by_cityname - 不是错误的请求KEY
+2017-08-16 11:09:52,286 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:09:52,469 - weather.py:81 - INFO - weather - test_get_weather_by_errorcityname - 不是错误的请求KEY
+2017-08-16 11:09:52,470 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:09:52,638 - weather.py:71 - INFO - weather - test_get_weather_by_nullcityname - 不是错误的请求KEY
+2017-08-16 11:09:52,640 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:09:52,749 - weather.py:30 - ERROR - weather - test_with_error_key - 错误的请求KEY
+2017-08-16 11:09:52,750 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:09:52,864 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:09:53,053 - weather.py:61 - INFO - weather - test_with_key - 不是错误的请求KEY
+2017-08-16 11:09:53,056 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:09:53,210 - main.py:36 - INFO - main - <module> - 日志结束
+2017-08-16 11:14:32,144 - main.py:22 - INFO - main - <module> - 日志开始
+2017-08-16 11:14:32,155 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:14:32,473 - weather.py:93 - INFO - weather - test_get_weather_by_cityname - 不是错误的请求KEY
+2017-08-16 11:14:32,476 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:14:32,677 - weather.py:83 - INFO - weather - test_get_weather_by_errorcityname - 不是错误的请求KEY
+2017-08-16 11:14:32,680 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:14:32,854 - weather.py:73 - INFO - weather - test_get_weather_by_nullcityname - 不是错误的请求KEY
+2017-08-16 11:14:32,855 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:14:32,969 - weather.py:30 - ERROR - weather - test_with_error_key - 错误的请求KEY
+2017-08-16 11:14:32,970 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:14:33,088 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:14:33,266 - weather.py:63 - INFO - weather - test_with_key - 不是错误的请求KEY
+2017-08-16 11:14:33,269 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:14:33,381 - main.py:36 - INFO - main - <module> - 日志结束
+2017-08-16 11:16:27,831 - main.py:22 - INFO - main - <module> - 日志开始
+2017-08-16 11:16:27,845 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:16:28,032 - weather.py:30 - ERROR - weather - test_with_error_key - 错误的请求KEY
+2017-08-16 11:16:28,033 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:16:28,148 - main.py:36 - INFO - main - <module> - 日志结束
+2017-08-16 11:19:53,753 - main.py:22 - INFO - main - <module> - 日志开始
+2017-08-16 11:19:53,766 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:19:53,927 - weather.py:30 - ERROR - weather - test_with_error_key - 错误的请求KEY
+2017-08-16 11:19:53,930 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:19:54,065 - weather.py:43 - INFO - weather - test_with_null_key - 不是错误的请求KEY
+2017-08-16 11:19:54,069 - main.py:36 - INFO - main - <module> - 日志结束
+2017-08-16 11:21:10,773 - main.py:22 - INFO - main - <module> - 日志开始
+2017-08-16 11:21:10,786 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:21:10,953 - weather.py:30 - INFO - weather - test_with_error_key - 错误的请求KEY
+2017-08-16 11:21:10,954 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:21:11,098 - weather.py:43 - INFO - weather - test_with_null_key - 错误的请求KEY
+2017-08-16 11:21:11,101 - main.py:36 - INFO - main - <module> - 日志结束
+2017-08-16 11:21:26,688 - main.py:22 - INFO - main - <module> - 日志开始
+2017-08-16 11:21:26,703 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:21:26,872 - weather.py:30 - INFO - weather - test_with_error_key - 错误的请求KEY
+2017-08-16 11:21:26,874 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:21:27,035 - weather.py:43 - INFO - weather - test_with_null_key - 错误的请求KEY
+2017-08-16 11:21:27,036 - main.py:36 - INFO - main - <module> - 日志结束
+2017-08-16 11:26:57,058 - main.py:22 - INFO - main - <module> - 日志开始
+2017-08-16 11:26:57,071 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:26:57,224 - weather.py:30 - INFO - weather - test_with_error_key - 错误的请求KEY
+2017-08-16 11:26:57,226 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:26:57,382 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:26:57,513 - weather.py:43 - INFO - weather - test_with_null_key - 错误的请求KEY
+2017-08-16 11:26:57,516 - main.py:36 - INFO - main - <module> - 日志结束
+2017-08-16 11:28:21,407 - main.py:22 - INFO - main - <module> - 日志开始
+2017-08-16 11:28:21,420 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:28:21,559 - weather.py:30 - INFO - weather - test_with_error_key - 错误的请求KEY
+2017-08-16 11:28:21,561 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:28:21,671 - weather.py:53 - INFO - weather - test_with_error_key1 - 错误的请求KEY
+2017-08-16 11:28:21,673 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:28:21,858 - weather.py:63 - INFO - weather - test_with_key - 不是错误的请求KEY
+2017-08-16 11:28:21,861 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:28:21,973 - weather.py:43 - INFO - weather - test_with_null_key - 错误的请求KEY
+2017-08-16 11:28:21,977 - main.py:36 - INFO - main - <module> - 日志结束
+2017-08-16 11:31:11,937 - main.py:22 - INFO - main - <module> - 日志开始
+2017-08-16 11:31:11,950 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:31:12,137 - weather.py:73 - INFO - weather - test_get_weather_by_nullcityname - 不是错误的请求KEY
+2017-08-16 11:31:12,138 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:31:12,253 - weather.py:30 - INFO - weather - test_with_error_key - 错误的请求KEY
+2017-08-16 11:31:12,256 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:31:12,369 - weather.py:53 - INFO - weather - test_with_error_key1 - 错误的请求KEY
+2017-08-16 11:31:12,371 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:31:12,855 - weather.py:63 - INFO - weather - test_with_key - 不是错误的请求KEY
+2017-08-16 11:31:12,857 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:31:13,061 - weather.py:43 - INFO - weather - test_with_null_key - 错误的请求KEY
+2017-08-16 11:31:13,062 - main.py:36 - INFO - main - <module> - 日志结束
+2017-08-16 11:31:35,398 - main.py:22 - INFO - main - <module> - 日志开始
+2017-08-16 11:31:35,411 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:31:35,709 - weather.py:73 - INFO - weather - test_get_weather_by_nullcityname - Error Cityname!
+2017-08-16 11:31:35,710 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:31:35,996 - weather.py:30 - INFO - weather - test_with_error_key - 错误的请求KEY
+2017-08-16 11:31:35,999 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:31:36,137 - weather.py:53 - INFO - weather - test_with_error_key1 - 错误的请求KEY
+2017-08-16 11:31:36,138 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:31:36,371 - weather.py:63 - INFO - weather - test_with_key - 不是错误的请求KEY
+2017-08-16 11:31:36,372 - connectionpool.py:213 - INFO - connectionpool - _new_conn - Starting new HTTP connection (1): v.juhe.cn
+2017-08-16 11:31:36,483 - weather.py:43 - INFO - weather - test_with_null_key - 错误的请求KEY
+2017-08-16 11:31:36,486 - main.py:36 - INFO - main - <module> - 日志结束
