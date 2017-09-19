@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d08061b-3d8c-4c7b-ae93-ba301e86e1c7" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_basic/100_examples/list_to_dict.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface_proj" afterPath="$PROJECT_DIR$/interface_proj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+<<<<<<< HEAD
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pycrytodome_demo/rsa_demo.py" afterPath="$PROJECT_DIR$/pycrytodome_demo/rsa_demo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pycrytodome_demo/rsa_demo_decrypt.py" afterPath="$PROJECT_DIR$/pycrytodome_demo/rsa_demo_decrypt.py" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface_proj" afterPath="$PROJECT_DIR$/interface_proj" />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +29,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="list_to_dict.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_basic/100_examples/list_to_dict.py">
+=======
+      <file leaf-file-name="smtp_sendemail_html(黄权).py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smtp_example/smtp_sendemail_html(黄权).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="874">
+              <caret line="41" column="71" lean-forward="false" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
+              <folding>
+                <element signature="e#170#184#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bugfree_tongjibaobiao.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lijiale_homework/bugfree_tongjibaobiao.py">
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
               <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
@@ -29,6 +56,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="dubbo_telnet.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dubbo/dubbo_telnet.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -36,13 +64,116 @@
               <caret line="97" column="16" lean-forward="false" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
               <folding>
                 <element signature="e#47#58#0" expanded="true" />
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="demo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bugfree-creatgroup.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lijiale_homework/bugfree-creatgroup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1863">
+              <caret line="88" column="4" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trade_duanchao/trade/login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2645">
+              <caret line="126" column="26" lean-forward="false" selection-start-line="126" selection-start-column="26" selection-end-line="126" selection-end-column="26" />
+=======
+      <file leaf-file-name="firsttestcase.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample-code-master/sample-code/examples/python/firsttestcase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="58" column="28" lean-forward="false" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+              <folding>
+                <element signature="e#24#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="postMessage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trade_duanchao/trade/postMessage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="e#24#35#0" expanded="true" />
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://C:/Python27/Lib/json/__init__.py">
+=======
+      <file leaf-file-name="盒子指令.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trade_duanchao/trade/盒子指令.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rsa_demo_encrypt.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pycrytodome_demo/rsa_demo_encrypt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rsa_demo_decrypt.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pycrytodome_demo/rsa_demo_decrypt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+              <folding>
+                <element signature="e#39#71#0" expanded="true" />
+=======
+      <file leaf-file-name="list_to_dict.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_basic/list_to_dict.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="touble.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_basic/touble.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="touble_list_dict.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_basic/touble_list_dict.py">
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="633">
               <caret line="194" column="47" lean-forward="false" selection-start-line="194" selection-start-column="47" selection-end-line="194" selection-end-column="47" />
@@ -51,6 +182,26 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+=======
+      <file leaf-file-name="android_complex.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample-code-master/sample-code/examples/python/android_complex.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1505390666121" expanded="true" signature="385:5431" ph="..." />
+                <marker date="1505390666121" expanded="true" signature="406:482" ph="..." />
+                <marker date="1505390666121" expanded="true" signature="1731:5431" ph="..." />
+                <marker date="1505390666121" expanded="true" signature="1912:5431" ph="..." />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -81,20 +232,43 @@
         <option value="$PROJECT_DIR$/sample-code-master/sample-code/examples/python/pytest/firsttestcase.py" />
         <option value="$PROJECT_DIR$/sample-code-master/sample-code/examples/python/firsttestcase.py" />
         <option value="$PROJECT_DIR$/sample-code-master/sample-code/examples/python/android_complex.py" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/pycrytodome_demo/Cryptography_demo.py" />
+        <option value="$PROJECT_DIR$/pycrytodome_demo/rsa_demo.py" />
+        <option value="$PROJECT_DIR$/pycrytodome_demo/rsa_demo_decrypt.py" />
+=======
         <option value="$PROJECT_DIR$/python_basic/list_to_dict.py" />
         <option value="$PROJECT_DIR$/python_basic/touble.py" />
         <option value="$PROJECT_DIR$/python_basic/touble_list_dict.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/python_basic/100_examples/1.py" />
         <option value="$PROJECT_DIR$/python_basic/100_examples/list_to_dict.py" />
         <option value="$PROJECT_DIR$/dubbo/dubbo_telnet.py" />
+=======
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+=======
+<<<<<<< HEAD
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
+=======
+    <option name="x" value="525" />
+    <option name="y" value="74" />
+    <option name="width" value="1400" />
+    <option name="height" value="809" />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -133,6 +307,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
+              <option name="myItemId" value="Pytho_lib" />
+=======
               <option name="myItemId" value="trade_duanchao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -166,6 +343,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="python_basic" />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -235,7 +413,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/woody_laoshi" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
@@ -259,92 +437,214 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.dubbo_telnet">
     <configuration default="false" name="touble" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+<<<<<<< HEAD
+  <component name="RunManager" selected="Python.demo">
+    <configuration default="false" name="Cryptography_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.touble_list_dict">
+    <configuration default="false" name="android_complex" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basic" />
+=======
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycrytodome_demo" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sample-code-master/sample-code/examples/python" />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="lijiale-zuoye1" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_basic/touble.py" />
+=======
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycrytodome_demo/Cryptography_demo.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sample-code-master/sample-code/examples/python/android_complex.py" />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="touble_list_dict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+<<<<<<< HEAD
+    <configuration default="false" name="rsa_demo_decrypt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="firsttestcase (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basic" />
+=======
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycrytodome_demo" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sample-code-master/sample-code/examples/python" />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="lijiale-zuoye1" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_basic/touble_list_dict.py" />
+=======
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycrytodome_demo/rsa_demo_decrypt.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sample-code-master/sample-code/examples/python/firsttestcase.py" />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+<<<<<<< HEAD
+    <configuration default="false" name="bugfree-creatgroup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="list_to_dict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basic/100_examples" />
+=======
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lijiale_homework" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basic" />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="lijiale-zuoye1" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="E:\woody\lijiale-zuoye1\python_basic\100_examples\list_to_dict.py" />
+=======
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lijiale_homework/bugfree-creatgroup.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_basic/list_to_dict.py" />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="list_to_dict (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+<<<<<<< HEAD
+    <configuration default="false" name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="touble" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basic/100_examples" />
+=======
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trade_duanchao/trade" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basic" />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="lijiale-zuoye1" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_basic/100_examples/list_to_dict.py" />
+=======
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trade_duanchao/trade/login.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_basic/touble.py" />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="dubbo_telnet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+<<<<<<< HEAD
+    <configuration default="false" name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="touble_list_dict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dubbo" />
+=======
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basic" />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="lijiale-zuoye1" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dubbo/dubbo_telnet.py" />
+=======
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_basic/touble_list_dict.py" />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -431,6 +731,7 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
+<<<<<<< HEAD
       <item index="1" class="java.lang.String" itemvalue="Python.touble" />
       <item index="2" class="java.lang.String" itemvalue="Python.touble_list_dict" />
       <item index="3" class="java.lang.String" itemvalue="Python.1" />
@@ -444,6 +745,37 @@
         <item index="2" class="java.lang.String" itemvalue="Python.1" />
         <item index="3" class="java.lang.String" itemvalue="Python.touble_list_dict" />
         <item index="4" class="java.lang.String" itemvalue="Python.touble" />
+=======
+<<<<<<< HEAD
+      <item index="1" class="java.lang.String" itemvalue="Python.Cryptography_demo" />
+      <item index="2" class="java.lang.String" itemvalue="Python.rsa_demo_decrypt" />
+      <item index="3" class="java.lang.String" itemvalue="Python.bugfree-creatgroup" />
+      <item index="4" class="java.lang.String" itemvalue="Python.login" />
+      <item index="5" class="java.lang.String" itemvalue="Python.demo" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.demo" />
+        <item index="1" class="java.lang.String" itemvalue="Python.bugfree-creatgroup" />
+        <item index="2" class="java.lang.String" itemvalue="Python.login" />
+        <item index="3" class="java.lang.String" itemvalue="Python.rsa_demo_decrypt" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Cryptography_demo" />
+=======
+      <item index="1" class="java.lang.String" itemvalue="Python.android_complex" />
+      <item index="2" class="java.lang.String" itemvalue="Python.firsttestcase (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.list_to_dict" />
+      <item index="4" class="java.lang.String" itemvalue="Python.touble" />
+      <item index="5" class="java.lang.String" itemvalue="Python.touble_list_dict" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.touble_list_dict" />
+        <item index="1" class="java.lang.String" itemvalue="Python.touble" />
+        <item index="2" class="java.lang.String" itemvalue="Python.list_to_dict" />
+        <item index="3" class="java.lang.String" itemvalue="Python.android_complex" />
+        <item index="4" class="java.lang.String" itemvalue="Python.firsttestcase (1)" />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
       </list>
     </recent_temporary>
   </component>
@@ -502,12 +834,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+=======
+<<<<<<< HEAD
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26927084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3213483" sideWeight="0.49566475" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11803278" sideWeight="0.4283582" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31508875" sideWeight="0.5716418" order="2" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="525" y="74" width="1400" height="809" extended-state="0" />
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12846482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3213483" sideWeight="0.49566475" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21343446" sideWeight="0.43976545" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21343446" sideWeight="0.56023455" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22337279" sideWeight="0.43208954" order="7" side_tool="true" content_ui="tabs" />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4946695" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -534,12 +884,43 @@
           <url>file://$PROJECT_DIR$/myproj/testcases/login_logout_cases/login_logout_test.py</url>
           <line>4</line>
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trade_duanchao/trade/postMessage.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/web service/webservice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1848">
+          <caret line="60" column="4" lean-forward="false" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web service/lib/mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="41" column="54" lean-forward="false" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web service/lib/upload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
     <entry file="file://$PROJECT_DIR$/web service/phone_origin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -617,6 +998,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
     <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-762174762/sys.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -824,8 +1206,95 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/sample-code-master/sample-code/examples/python/ios_simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample-code-master/sample-code/examples/python/firsttestcase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="58" column="28" lean-forward="false" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
     <entry file="file://$PROJECT_DIR$/sample-code-master/sample-code/examples/python/android_complex.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="552">
+          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample-code-master/sample-code/examples/python/android_contacts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample-code-master/sample-code/examples/python/android_sauce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="25" column="65" lean-forward="true" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cx_Oracle安装/registry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-303">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample-code-master/sample-code/examples/python/android_webview.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_test/AutomaticTestResources.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycrytodome_demo/Cryptography_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycrytodome_demo/rsa_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycrytodome_demo/rsa_demo_encrypt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycrytodome_demo/rsa_demo_decrypt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+          <folding>
+            <element signature="e#39#71#0" expanded="true" />
+=======
         <state relative-caret-position="594">
           <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
           <folding>
@@ -834,10 +1303,12 @@
             <marker date="1505390666121" expanded="true" signature="406:482" ph="..." />
             <marker date="1505390666121" expanded="true" signature="1731:5431" ph="..." />
             <marker date="1505390666121" expanded="true" signature="1912:5431" ph="..." />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/trade_duanchao/trade/3des_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -850,14 +1321,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+=======
+    <entry file="file://$PROJECT_DIR$/trade_duanchao/trade/url.txt">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trade_duanchao/trade/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2645">
+          <caret line="126" column="26" lean-forward="false" selection-start-line="126" selection-start-column="26" selection-end-line="126" selection-end-column="26" />
+=======
+        <state relative-caret-position="33">
+          <caret line="58" column="28" lean-forward="false" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/trade_duanchao/trade/postMessage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trade_duanchao/trade/盒子指令.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/python_basic/list_to_dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/lijiale_homework/bugfree-creatgroup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1863">
+          <caret line="88" column="4" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
+=======
     <entry file="file://$PROJECT_DIR$/python_basic/touble.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -865,10 +1388,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+=======
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/sample-code-master/sample-code/examples/python/firsttestcase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -887,14 +1414,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/smtp_example/smtp_sendemail_html(黄权).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="41" column="71" lean-forward="false" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
+          <folding>
+            <element signature="e#170#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lijiale_homework/bugfree_tongjibaobiao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/trade_duanchao/trade/3des_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://C:/Python27/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="633">
           <caret line="194" column="47" lean-forward="false" selection-start-line="194" selection-start-column="47" selection-end-line="194" selection-end-column="47" />
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/robot_framework/ranzhi_zhanglei/resources_ranzhi.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/python_basic/touble_list_dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+>>>>>>> d0d99b39e56fa4a784d74dde050c33d804795fcf
+>>>>>>> e4b7c79356741994c8b74e56889a8e43f6c9f2c3
           <folding />
         </state>
       </provider>
