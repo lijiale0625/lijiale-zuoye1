@@ -9,13 +9,19 @@
 
 #i = int(raw_input('请输入利润金额：'))
 a=[0,100000,200000,400000,600000,1000000]
-a_reversed=reversed(a)
+#reversed(a)  返回一个倒序可遍历对象，需序遍历出
+a1=a[::-1]
 b=[0.1,0.075,0.05,0.03,0.015,0.01]
+#reversed(a)  返回一个倒序可遍历对象，需序遍历出
 b_reversed=reversed(b)
-print b_reversed
+b1 = []
+for i in b_reversed:
+    b1.append(i)
+
+print a1,b1
 result=0
-for j in range(0,len(b_reversed)):
-    if i>a_reversed[j] :
-        result += (i-a_reversed[j])*b_reversed[j]
-        print (i-a_reversed[j])*b_reversed[j]
-print result
+# for j in range(0,len(b_reversed)):
+#     if i>a_reversed[j] :
+#         result += (i-a_reversed[j])*b_reversed[j]
+#         print (i-a_reversed[j])*b_reversed[j]
+# print result
