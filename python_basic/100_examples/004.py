@@ -14,7 +14,7 @@ print year1,month1,date1
 for i in range(0,month1-1):
     sum += mermonth[i]
     print sum
-if (year1 % 400 == 0 or year1 % 4 == 0) and month1 > 2 :
+if (year1 % 400 == 0 or year1 % 4 == 0) and year1 % 100 != 0 and month1 > 2 :
     sum = sum + 1
     print sum
 print 'it is the %dth day.' % (sum+date1)
