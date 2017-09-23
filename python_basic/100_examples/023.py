@@ -26,3 +26,8 @@ def pic(lines):
         print(' ' * empty, '*' * (2 * (middle - empty) + 1))
 line = 7 # 设置输出行数
 pic(7)
+#2）最简单的方法
+for i in range(4):
+    print((3-i)*' '+(2*i+1)*'*')
+for i in range(3):
+    print((i+1)*' '+(5-2*i)*'*')
