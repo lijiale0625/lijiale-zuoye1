@@ -66,8 +66,18 @@ class MultiTextFrame(wx.Frame):
 
     def getAnswer(self, event):
         self.tc2.Clear()
-        self.tc2.AppendText(get_answer())
-
+        self.tc2.AppendText(get_answer().decode('utf-8', 'ignore'))
+#用self.tc2.AppendText(get_answer())时报错，解决办法如下：
+# [解决办法]
+# #将获取的字符串strTxt做decode时，指明ignore，会忽略非法字符,
+# #当然对于gbk等编码，处理同样问题的方法是类似的
+# strTest = strTxt.decode('utf-8', 'ignore')
+# return strTest
+# [补充]
+# 默认的参数就是strict，代表遇到非法字符时抛出异常；
+# 如果设置为ignore，则会忽略非法字符；
+# 如果设置为replace，则会用?号取代非法字符；
+# 如果设置为xmlcharrefreplace，则使用XML的字符引用。
 
 class MyApp(wx.App):
     def __init__(self):
