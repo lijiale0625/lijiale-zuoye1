@@ -1,0 +1,20 @@
+1、此工具的运行环境是 Python 2.7版本；
+2、需要安装：Wxpython 、json模块; 
+检测Wxpython是否安装：
+在python的运行界面输入：
+import wx
+如果没有报错，则表示安装成功；
+
+安装方法：
+点击 wxPython2.8-winXX-unicode-2.8.12.1-py27.exe 进行安装。
+注意：根据电脑本地Python版本位数，选择wxPython2.8。
+
+检测json是否安装：
+在python的运行界面输入：
+import json
+如果没有报错，则表示安装成功；
+
+安装方法：
+pip install json
+
+3、启动方法，使用python2.7运行ui.py.
