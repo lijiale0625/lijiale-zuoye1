@@ -109,7 +109,7 @@ if __name__ == '__main__':
     for name in conn.do('ls'):
         print (name)
     print '*'*50,u'interface way 接口方法'
-    for way in (conn.do('ls com.openplatform.system.service.IGEOGService')):
+    for way in (conn.do('ls com.openplatform.settle.service.term.ITerminalBaseService')):
         print (way)
     print '*'*25,u'invoke dubbo interface'
     interface = 'com.openplatform.system.service.IGEOGService'
