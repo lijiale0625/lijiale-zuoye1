@@ -61,7 +61,7 @@ class MultiTextFrame(wx.Frame):
             self.Close()
         self.tc.Clear()
         self.tc2.Clear()
-        self.tc.AppendText(get_problem())
+        self.tc.AppendText(get_problem().decode('utf-8', 'ignore'))
 
 
     def getAnswer(self, event):
