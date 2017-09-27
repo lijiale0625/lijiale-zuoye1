@@ -46,6 +46,7 @@ with open('slate.pkl', 'rb') as jar:
 print 'current value:', slate.value  # None
 print slate.print_changes()  # 输出历史记录与上面一致
 
+# 在切片运算中将对象转化为int, 因此该方法的返回值必须是int。用一个例子来解释这个用法。
 class Thing(object):
     def __index__(self):
         return 0
