@@ -19,3 +19,5 @@ s.score = 60
 print('s.score =', s.score)
 # ValueError: score must between 0 ~ 100!
 s.score = 99
+
+
