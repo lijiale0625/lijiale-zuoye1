@@ -36,3 +36,18 @@ Student.set_score=MethodType(set_score,Student) #给Student类动态绑定方法
 StuB=Student()
 StuB.set_score(75)
 print(StuB.score)
+
+#使用__slots__如果我们想要限制实例的属性怎么办？比如，只允许对Student实例添加name和age属性。
+#为了达到限制的目的，Python允许在定义class的时候，定义一个特殊的__slots__变量，来限制该class实例能添加的属性：
+class Teacher(object):
+    __slots__=('name','age','sex')
+#当前实例只能绑定('name','age','sex')这几个属性，如果绑定其他的属性，比如score就会报错，当这限制对Teacher子类无效
+#此方法对当前实例有效，对于继承后的子类无效
+teacher = Teacher()
+teacher.age = 30
+print teacher.age
+class Teachter1(Teacher):
+    pass
+teacher1 = Teachter1()
+teacher1.age = 23
+print teacher1.age
