@@ -121,8 +121,8 @@ class dubbo:
 
 
 if __name__ == '__main__':
-    Host = '172.30.0.172'  # Doubble服务器IP  172.30.0.115
-    Port =20890  # Doubble服务端口 20890 20870
+    Host = '172.30.0.169'  # Doubble服务器IP  172.30.0.115
+    Port =20880  # Doubble服务端口 20890 20870
     conn = dubbo(Host, Port)     # 初始化dubbo对象
     conn.set_connect_timeout(10) # 设置telnet连接超时时间
     conn.set_encoding('gbk')     # 设置dubbo服务返回响应的编码
