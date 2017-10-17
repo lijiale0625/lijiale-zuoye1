@@ -9,7 +9,7 @@ import telnetlib
 class dubbo:
     # 定义私有属性
     __init = False
-    __encoding = "gbk"
+    __encoding = "utf-8" #gbk
     __finish = 'dubbo>'
     __connect_timeout = 10
     __read_timeout = 10
@@ -93,9 +93,9 @@ def connect(host, port):
 
 
 if __name__ == '__main__':
-    Host = '172.30.0.227'  # Doubble服务器IP  172.30.0.115
+    Host = '172.30.0.169'  # Doubble服务器IP  172.30.0.115
 
-    Port = 20880  # Doubble服务端口 20890 20870
+    Port = 20080  # Doubble服务端口 20890 20870
 
     # 初始化dubbo对象
     conn = dubbo(Host, Port)
@@ -109,12 +109,12 @@ if __name__ == '__main__':
     for name in conn.do('ls'):
         print (name)
     print '*'*50,u'interface way 接口方法'
-    for way in (conn.do('ls com.openplatform.settle.service.term.ITerminalBaseService')):
+    for way in (conn.do('ls com.openplatform.workbench.api.mcht.MchtSuppleInfService')):
         print (way)
     print '*'*25,u'invoke dubbo interface'
-    interface = 'com.openplatform.system.service.IGEOGService'
-    method = 'getGeoInfByAmap'
-    param ={"longitude":"110.93434942527789","latitude":"21.650854083108324"}
+    interface = 'com.openplatform.workbench.api.mcht.MchtSuppleInfService'
+    method = 'queryMchtByPhone'
+    param = {}
     data=conn.invoke(interface, method, param)
     print '*'*25,u'response 响应数据'
     print(json.dumps(data,ensure_ascii=False, indent=4))

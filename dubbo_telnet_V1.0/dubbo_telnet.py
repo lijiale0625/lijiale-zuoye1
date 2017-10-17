@@ -4,7 +4,9 @@ import json
 import socket
 import telnetlib
 
-
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 class dubbo:
     # 定义私有属性
     __init = False
