@@ -239,10 +239,11 @@ class read_test_case_data(object):
 
 if __name__ == '__main__':
     # table_path = r'C:\Users\huangjiajian\Desktop\fsfp_cashbox\TestCase\interface.xlsx'   # function.xlsx interface.xlsx
-    table_path = r'C:\Users\huangjiajian\Desktop\interface.xlsx'
+    table_path = r'C:\Users\lijiale\Desktop\auto\obs\interface.xlsx'
     test = read_test_case_data()
     work_table = test.open_table(table_path)
     all_mered = test.get_all_mered_calls(work_table, 'interface')     # function  data
+    # print all_mered
     print test.test_case_relevance(work_table, 'interface')
     # for i in range(1, 7):
     #     print test.get_test_case_data(work_table, 'interface', i, all_mered)

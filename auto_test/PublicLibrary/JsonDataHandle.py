@@ -399,3 +399,4 @@ if __name__ == '__main__':
     test_data='{"requestBody": {"account": "15919792521","password": "${password}"}}'
     test = JsonDataHandle()
     #print test.get_the_key(test_data)
+    print test.get_db_configuration(sum,{'aaaa':1,'bbb':2})
