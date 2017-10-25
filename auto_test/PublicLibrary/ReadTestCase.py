@@ -240,16 +240,17 @@ class read_test_case_data(object):
 if __name__ == '__main__':
     # table_path = r'C:\Users\huangjiajian\Desktop\fsfp_cashbox\TestCase\interface.xlsx'   # function.xlsx interface.xlsx
     table_path = r'C:\Users\lijiale\Desktop\auto\obs\interface.xlsx'
+	#table_path = r'E:\woody\lijiale-zuoye1\auto_test\interface.xlsx'
     test = read_test_case_data()
     work_table = test.open_table(table_path)
     all_mered = test.get_all_mered_calls(work_table, 'interface')     # function  data
-    # print all_mered
+    print all_mered
     print test.test_case_relevance(work_table, 'interface')
-    # for i in range(1, 7):
-    #     print test.get_test_case_data(work_table, 'interface', i, all_mered)
+    #for i in range(1, 7):
+     #   print test.get_test_case_data(work_table, 'interface', i)
     #print all_mered
-    # for i in range(1, 3):
-    #     print test.get_test_case_data(work_table, 'interface', str(i), *all_mered)
-    # print all_mered
-    # for i in range(1, 22):
-    #     print test.get_function_data(work_table, 'function', i, *all_mered)
+    #for i in range(1, 3):
+	#	print test.get_test_case_data(work_table, 'interface', str(i), *all_mered)
+    #print all_mered
+    #for i in range(1, 22):
+     #   print test.get_function_data(work_table, 'function', i, *all_mered)
