@@ -2,7 +2,7 @@
 __author__ = 'luchanghong'
 import rsa
 
-# 先生成一对密钥，然后保存.pem格式文件，当然也可以直接使用
+# 锟斤拷锟斤拷锟斤拷一锟斤拷锟斤拷钥锟斤拷然锟襟保达拷.pem锟斤拷式锟侥硷拷锟斤拷锟斤拷然也锟斤拷锟斤拷直锟斤拷使锟斤拷
 (pubkey, privkey) = rsa.newkeys(1024)
 
 pub = pubkey.save_pkcs1()
@@ -15,7 +15,7 @@ prifile = open('private.pem','w+')
 prifile.write(pri)
 prifile.close()
 
-# load公钥和密钥
+# load锟斤拷钥锟斤拷锟斤拷钥
 message = 'hello'
 with open('public.pem') as publickfile:
     p = publickfile.read()
@@ -25,13 +25,13 @@ with open('private.pem') as privatefile:
     p = privatefile.read()
     privkey = rsa.PrivateKey.load_pkcs1(p)
 
-# 用公钥加密、再用私钥解密
+# 锟矫癸拷钥锟斤拷锟杰★拷锟斤拷锟斤拷私钥锟斤拷锟斤拷
 crypto = rsa.encrypt(message, pubkey)
 
-print type(crypto)
+print type(crypto),crypto
 message = rsa.decrypt(crypto, privkey)
 print message
 
-# sign 用私钥签名认真、再用公钥验证签名
+# sign 锟斤拷私钥签锟斤拷锟斤拷锟芥、锟斤拷锟矫癸拷钥锟斤拷证签锟斤拷
 signature = rsa.sign(message, privkey, 'SHA-1')
 rsa.verify('hello', signature, pubkey)

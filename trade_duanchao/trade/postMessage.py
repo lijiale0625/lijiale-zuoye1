@@ -30,7 +30,7 @@ def postJson(ipath,message={}):
     try :    
         req = urllib2.Request(url=requrl, data=message_to_json, headers=header)
         print requrl
-        #print message_to_json
+        print message_to_json
         res_data = urlOpener.open(req)
         res_data = res_data.read()
         #print res_data#.decode('utf-8')
